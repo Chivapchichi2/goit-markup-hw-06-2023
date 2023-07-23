@@ -44,15 +44,15 @@ body {
 }
 
 .screen-reader-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border: 0;
+    /*position: absolute;*/
+    /*width: 1px;*/
+    /*height: 1px;*/
+    /*padding: 0;*/
+    /*margin: -1px;*/
+    /*overflow: hidden;*/
+    /*clip: rect(0, 0, 0, 0);*/
+    /*white-space: nowrap;*/
+    /*border: 0;*/
 }
 
 .header {
@@ -108,7 +108,7 @@ body {
 }
 
 .button {
-    border-radius: 4px;
+    /*border-radius: 4px;*/
     font-weight: 500;
     letter-spacing: 0.64px;
     line-height: 1.5;
@@ -117,7 +117,7 @@ body {
 .hero-button {
     color: var(--white);
     background: var(--iris);
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    /*box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);*/
 }
 
 .hero-button:hover, .hero-button:focus {
@@ -125,7 +125,7 @@ body {
     cursor: pointer;
 }
 
-.title-h3  {
+.title-small  {
     color: var(--navyblue);
 
     font-size: 20px;
@@ -160,7 +160,7 @@ body {
 .gallery-button:hover,.gallery-button:focus {
     color: var(--white);
     background-color: var(--ocean);
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.10);
+    /*box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.10);*/
     cursor: pointer;
 }
 
