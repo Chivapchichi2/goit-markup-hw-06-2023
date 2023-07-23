@@ -111,11 +111,11 @@ body {
     border-radius: 4px;
     font-weight: 500;
     letter-spacing: 0.64px;
+    line-height: 1.5;
 }
 
 .hero-button {
     color: var(--white);
-
     background: var(--iris);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
@@ -148,7 +148,7 @@ body {
 }
 
 .footer-logo {
-    color:var(--white);
+    color:var(--cloud);
 }
 
 .gallery-button {
@@ -162,4 +162,12 @@ body {
     background-color: var(--ocean);
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.10);
     cursor: pointer;
+}
+
+.list-item {
+    background-color: var(--white);
+}
+
+.gallery-list-item {
+    border: 1px solid var(--cornflower, #E7E9FC);
 }
