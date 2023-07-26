@@ -112,7 +112,7 @@ padding-bottom: 120px;;
     align-items: center;
 }
 
-.nav .list, address {
+.header .list-item {
     padding: 24px 0;
 }
 
@@ -229,6 +229,7 @@ padding-bottom: 120px;;
     padding-left: 16px;
     padding-right: 16px;
     border: 1px solid var(--cornflower);
+    border-top: none;
 }
 
 .team {
