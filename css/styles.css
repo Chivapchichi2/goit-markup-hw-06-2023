@@ -48,12 +48,12 @@ img {
     margin-right: auto;
 }
 
-.section:not(.advantages, .gallery) {
+.section:not(.gallery, .hero, .work) {
     padding: 120px 0;
 }
 
-.advantages {
-    padding: 120px 0 0;
+.work {
+padding-bottom: 120px;;
 }
 
 .gallery {
@@ -87,11 +87,11 @@ img {
 }
 
 .header {
-    padding: 24px 0;
     border-bottom: 1px solid var(--cornflower);
 }
 
 .logo {
+    margin-right: 76px;
     color: var(--iris);
 
     font-family: Raleway, sans-serif;
@@ -109,7 +109,11 @@ img {
 .nav {
     display: flex;
     justify-content: space-between;
-    gap: 76px;
+    align-items: center;
+}
+
+.nav .list, address {
+    padding: 24px 0;
 }
 
 .nav-link {
@@ -141,8 +145,8 @@ img {
 }
 
 .hero{
-    min-height: 224px;
     padding: 188px 0;
+    min-height: 224px;
     background-color: var(--navyblue);
 
     text-align: center;
@@ -164,10 +168,14 @@ img {
     font-weight: 500;
     letter-spacing: 0.04em;
     line-height: 1.5;
+    cursor: pointer;
 }
 
 .hero-button {
     padding: 16px 32px;
+    margin: 0 auto;
+    display: block;
+    min-width: 169px;
 
     color: var(--white);
     background: var(--iris);
@@ -179,7 +187,6 @@ img {
 
 .hero-button:hover, .hero-button:focus {
     background: var(--ocean);
-    cursor: pointer;
 }
 
 .advantages-list {
@@ -188,7 +195,7 @@ img {
 }
 
 .advantages-list .list-item {
-    max-width: calc((100% - 3*24px - 30px) / 4);
+    width: calc((100% - 3*24px) / 4);
 }
 
 .title-small  {
@@ -209,9 +216,19 @@ img {
     gap: 24px;
 }
 
+.work .list-item {
+    width: calc((100% - 3 * 16px) / 3);
+}
+
 .info {
     padding: 32px 0;
     text-align: center;
+}
+
+.gallery-list .info {
+    padding-left: 16px;
+    padding-right: 16px;
+    border: 1px solid var(--cornflower);
 }
 
 .team {
@@ -223,15 +240,25 @@ img {
     gap: 24px;
 }
 
+.team .list-item {
+    width: calc((100% - 3 * 24px) / 4);
+    border-radius: 0 0 4px 4px;
+}
+
 .footer {
     padding: 100px 0;
 
     background-color: var(--navyblue);
     color: var(--cloud);
 }
+
 .footer .text {
     max-width: 264px;
-    margin-top: 16px;
+}
+
+.footer .link {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo {
@@ -250,7 +277,7 @@ img {
 .gallery-button:hover,.gallery-button:focus {
     color: var(--white);
     background-color: var(--ocean);
-    cursor: pointer;
+    border: 1px solid transparent;
 }
 
 .list-item {
@@ -258,8 +285,7 @@ img {
 }
 
 .gallery-list-item {
-    border: 1px solid var(--cornflower);
-    max-width: calc((100% - 2*24px - 30px) / 3);
+    max-width: calc((100% - 48px) / 3);
 }
 
 .gallery-button-list {
