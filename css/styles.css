@@ -112,11 +112,12 @@ padding-bottom: 120px;;
     align-items: center;
 }
 
-.header .list-item {
+.address .list-item {
     padding: 24px 0;
 }
 
 .nav-link {
+    padding: 24px 0;
     color: var(--navyblue);
 
     font-weight: 500;
