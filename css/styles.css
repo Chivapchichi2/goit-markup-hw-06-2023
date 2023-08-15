@@ -462,6 +462,7 @@ padding-bottom: 120px;;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: none;
     border-radius: 4px;
     background-color: var(--iris);
     color: var(--white);
@@ -601,6 +602,10 @@ padding-bottom: 120px;;
     margin-bottom: 8px;
 }
 
+.modal-box:nth-child(4) {
+    margin-bottom: 16px;
+}
+
 .modal-box:last-of-type {
     margin-bottom: 24px;
 }
@@ -676,6 +681,9 @@ padding-bottom: 120px;;
     resize: none;
     height: 120px;
     font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--navyblue-modal);
 }
 
 .comment-input::placeholder {
@@ -699,7 +707,7 @@ padding-bottom: 120px;;
     position: relative;
     color: var(--light-slate);
     font-size: 12px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.04em;
 }
 
