@@ -2,8 +2,14 @@
 @import url('./base/common.css');
 @import url('./base/container.css');
 @import url('./base/buttons.css');
+@import url('./base/section.css');
 @import url('./layout/header.css');
 @import url('./layout/hero.css');
 @import url('./layout/modal.css');
+@import url('./layout/advantages.css');
+@import url('./layout/work.css');
+@import url('./layout/team.css');
+@import url('./layout/customers.css');
+@import url('./layout/footer.css');
 
 @import url('styles.css');

@@ -1,0 +1,21 @@
+.work {
+    display: none;
+}
+
+@media screen and (min-width: 1158px) {
+    .work {
+        display: block;
+        padding-top: 0;
+        padding-bottom: 120px;
+    }
+
+    .work-list {
+        display: flex;
+        gap: 24px;
+    }
+
+    .work .list-item {
+        width: calc((100% - 3 * 16px) / 3);
+    }
+}
+

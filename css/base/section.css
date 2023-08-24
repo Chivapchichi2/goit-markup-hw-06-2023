@@ -1,0 +1,10 @@
+.section {
+    padding: 96px 0;
+}
+
+@media screen and (min-width: 1158px) {
+    .section:not(.gallery, .hero, .work) {
+        padding: 120px 0;
+    }
+}
+
