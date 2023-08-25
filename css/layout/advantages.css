@@ -2,7 +2,7 @@
     display: none;
 }
 
-.title-small {
+.advantages-list .title {
     text-align: center;
     margin-bottom: 8px;
 }
@@ -28,7 +28,7 @@
         width: calc((100% - 24px) / 2);
     }
 
-    .advantages-list .title-small {
+    .advantages-list .title {
         text-align: start;
     }
 }
@@ -55,5 +55,11 @@
 
     .advantages-list .list-item {
         width: calc((100% - 3 * 24px) / 4);
+    }
+
+    .advantages-list .title {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
     }
 }

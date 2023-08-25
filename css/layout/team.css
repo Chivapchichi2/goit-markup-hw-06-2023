@@ -2,12 +2,6 @@
     background-color: var(--cloud);
 }
 
-.team .title-small {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-}
-
 .info {
     padding: 32px 0;
 }
@@ -19,7 +13,6 @@
 .info .text {
     margin-bottom: 8px;
 }
-
 
 .team-list {
     display: flex;

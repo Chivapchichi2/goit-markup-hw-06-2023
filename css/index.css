@@ -11,5 +11,4 @@
 @import url('./layout/team.css');
 @import url('./layout/customers.css');
 @import url('./layout/footer.css');
-
-@import url('styles.css');
+@import url('./layout/gallery.css');
