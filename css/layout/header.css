@@ -106,10 +106,16 @@
 
 .mobile-menu-tel {
     color: var(--iris);
-    font-size: 36px;
+    font-size: 24px;
     font-weight: 700;
     line-height: 1.11;
     text-transform: capitalize;
+}
+
+@media screen and  (min-width: 428px) {
+    .mobile-menu-tel {
+        font-size: 36px;
+    }
 }
 
 .mobile-menu-tel-item {

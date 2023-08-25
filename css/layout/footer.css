@@ -122,8 +122,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
     .footer .container {
-        padding-left: 108px;
-        padding-right: 108px;
+        width: 584px;
     }
 }
 
